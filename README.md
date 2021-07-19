@@ -4,10 +4,7 @@ Xcode Light theme and Dark theme for GNU/Emacs.
 
 **This repo is in the super-early stage!**
 
-## Screenshots
-
-![](images/xcode-dark-theme.png)
-![](images/xcode-light-theme.png)
+![](images/xcode-theme.png)
 
 ## Installation
 
