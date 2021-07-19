@@ -33,7 +33,7 @@
         (var-fg           (if (eq variant 'dark) (if (true-color-p) "#b2b2b2" "#b2b2b2") (if (true-color-p) "#262626" "#5f5f87")))
         (warning-fg       (if (eq variant 'dark) (if (true-color-p) "#b2b2b2" "#b2b2b2") (if (true-color-p) "#78492a" "#5f5f87")))
         (match-fg         (if (eq variant 'dark) (if (true-color-p) "#b2b2b2" "#b2b2b2") (if (true-color-p) "#262626" "#5f5f87")))
-        (border-fg        (if (eq variant 'dark) (if (true-color-p) "#b2b2b2" "#b2b2b2") (if (true-color-p) "#262626" "#5f5f87")))
+        (border-fg        (if (eq variant 'dark) (if (true-color-p) "#b2b2b2" "#b2b2b2") (if (true-color-p) "#b2b2b2" "#5f5f87")))
         )
 
     (cl-loop for (cvar . val) in xcode-theme-custom-colors
@@ -70,7 +70,7 @@
      `(match ((,class (:background ,highlight-bg :foreground ,match-fg))))
      `(minibuffer-prompt ((,class (:inherit bold :foreground ,keyword-fg))))
      `(warning ((,class (:foreground ,warning-fg))))
-     `(widget-button-pressed ((,class (:foreground ,green))))
+     `(vertical-border ((,class (:foreground ,border-fg))))
 
 ;;;;; mode-line
      `(mode-line           ((,class (:foreground ,normal-fg :background ,normal-bg :box (:color ,border-fg :line-width 1)))))
@@ -83,4 +83,12 @@
      `(proof-tacticals-name-face ((,class (:foreground ,function-use-fg))))
      `(proof-tactics-name-face ((,class (:foreground ,function-use-fg))))
      `(coq-cheat-face ((,class (:foreground ,error-fg))))
+     `(proof-declaration-name-face ((,class (:foreground ,type-def-fg))))
      )))
+
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
+(provide 'xcode-common)
