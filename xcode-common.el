@@ -93,15 +93,17 @@
 
 ;;;;; ivy
      `(ivy-current-match ((,class (:background ,bg4 :extend t))))
-     `(ivy-minibuffer-match-face-1 ((,class (:foreground ,fg1))))
-     `(ivy-minibuffer-match-face-2 ((,class (:foreground ,fg1))))
-     `(ivy-minibuffer-match-face-3 ((,class (:foreground ,fg1))))
-     `(ivy-minibuffer-match-face-4 ((,class (:foreground ,fg1))))
-     `(ivy-subdir ((,class (:foreground ,fg1))))
-     `(ivy-virtual ((,class (:foreground ,fg1))))
-     `(ivy-remote ((,class (:foreground ,fg1))))
-     `(ivy-modified-buffer ((,class (:foreground ,fg1))))
-     `(ivy-modified-outside-buffer ((,class (:foreground ,fg1))))
+     `(ivy-minibuffer-match-face-1 ((,class (:inherit normal))))
+     `(ivy-minibuffer-match-face-2 ((,class (:inherit normal))))
+     `(ivy-minibuffer-match-face-3 ((,class (:inherit normal))))
+     `(ivy-minibuffer-match-face-4 ((,class (:inherit normal))))
+
+;;;;; swiper
+     `(swiper-line-face ((,class (:background ,bg4))))
+     `(swiper-match-face-1 ((,class (:inherit bold))))
+     `(swiper-match-face-2 ((,class (:inherit bold))))
+     `(swiper-match-face-3 ((,class (:inherit bold))))
+     `(swiper-match-face-4 ((,class (:inherit bold))))     
 
 ;;;;; proof-general
      `(proof-locked-face ((,class (:background ,bg5))))
