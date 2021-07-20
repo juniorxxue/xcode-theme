@@ -87,8 +87,8 @@ for straight users,
 | fg1  | base                                       | black          | #dfdfe0 |
 | fg2  | builtin and keywords: define, let, in ...  | pink, semibold | #ff7ab2 |
 | fg3  | comment, doc, link                         | dark grey      | #7f8c98 |
-| fg4  | function call                              | purple         | #4b21b0 |
-| fg5  | function declaration, data constructor ... | TBD            | #0f68a0 |
+| fg4  | function call                              | purple         | #b281eb |
+| fg5  | function declaration, data constructor ... | TBD            | #4eb0cc |
 | fg6  | constant: integer, string ...              | TBD            | #d9c97c |
 | fg7  | types: Int, String ...                     | TBD            | #6bdfff |
 | fg8  | warning                                    | brown          | #ffa14f |

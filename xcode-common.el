@@ -89,7 +89,19 @@
      `(company-tooltip-annotation ((,class (:foreground ,fg3))))
 
 ;;;;; company-coq
-    `(company-coq-snippet-hole-face ((,class (:weight light :italic nil)))) 
+    `(company-coq-snippet-hole-face ((,class (:weight light :italic nil))))
+
+;;;;; ivy
+     `(ivy-current-match ((,class (:background ,bg4 :extend t))))
+     `(ivy-minibuffer-match-face-1 ((,class (:foreground ,fg1))))
+     `(ivy-minibuffer-match-face-2 ((,class (:foreground ,fg1))))
+     `(ivy-minibuffer-match-face-3 ((,class (:foreground ,fg1))))
+     `(ivy-minibuffer-match-face-4 ((,class (:foreground ,fg1))))
+     `(ivy-subdir ((,class (:foreground ,fg1))))
+     `(ivy-virtual ((,class (:foreground ,fg1))))
+     `(ivy-remote ((,class (:foreground ,fg1))))
+     `(ivy-modified-buffer ((,class (:foreground ,fg1))))
+     `(ivy-modified-outside-buffer ((,class (:foreground ,fg1))))
 
 ;;;;; proof-general
      `(proof-locked-face ((,class (:background ,bg5))))
