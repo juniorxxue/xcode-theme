@@ -97,13 +97,17 @@
      `(ivy-minibuffer-match-face-2 ((,class (:inherit normal))))
      `(ivy-minibuffer-match-face-3 ((,class (:inherit normal))))
      `(ivy-minibuffer-match-face-4 ((,class (:inherit normal))))
+     `(ivy-modified-buffer ((,class (:foreground ,fg1))))
+     `(ivy-virtual ((,class (:foreground ,fg1))))
+     `(ivy-subdir ((,class (:foreground ,fg1))))
+     `(ivy-remote ((,class (:foreground ,fg1))))
 
 ;;;;; swiper
      `(swiper-line-face ((,class (:background ,bg4))))
-     `(swiper-match-face-1 ((,class (:inherit bold))))
-     `(swiper-match-face-2 ((,class (:inherit bold))))
-     `(swiper-match-face-3 ((,class (:inherit bold))))
-     `(swiper-match-face-4 ((,class (:inherit bold))))     
+     `(swiper-match-face-1 ((,class (:inherit normal))))
+     `(swiper-match-face-2 ((,class (:inherit normal))))
+     `(swiper-match-face-3 ((,class (:inherit normal))))
+     `(swiper-match-face-4 ((,class (:inherit normal))))     
 
 ;;;;; proof-general
      `(proof-locked-face ((,class (:background ,bg5))))
