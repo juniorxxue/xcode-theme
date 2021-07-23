@@ -20,7 +20,7 @@
         (bg2              (if (eq variant 'dark) (if (true-color-p) "#414453" "#b2b2b2") (if (true-color-p) "#e5e5e5" "#5f5f87")))
         (bg3              (if (eq variant 'dark) (if (true-color-p) "#393b44" "#b2b2b2") (if (true-color-p) "#f4f4f4" "#5f5f87")))
         (bg4              (if (eq variant 'dark) (if (true-color-p) "#414453" "#b2b2b2") (if (true-color-p) "#b4d8fd" "#5f5f87")))
-        (bg5              (if (eq variant 'dark) (if (true-color-p) "#0f5bca" "#b2b2b2") (if (true-color-p) "#ecf5ff" "#5f5f87")))
+        (bg5              (if (eq variant 'dark) (if (true-color-p) "#2f3037" "#b2b2b2") (if (true-color-p) "#ecf5ff" "#5f5f87")))
         (bg6              (if (eq variant 'dark) (if (true-color-p) "#dfdfe0" "#b2b2b2") (if (true-color-p) "#262626" "#5f5f87")))
         (fg1              (if (eq variant 'dark) (if (true-color-p) "#dfdfe0" "#b2b2b2") (if (true-color-p) "#262626" "#5f5f87")))
         (fg2              (if (eq variant 'dark) (if (true-color-p) "#ff7ab2" "#b2b2b2") (if (true-color-p) "#ad3da4" "#5f5f87")))
