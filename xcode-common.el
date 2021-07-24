@@ -116,6 +116,7 @@
      `(proof-tactics-name-face ((,class (:foreground ,fg4))))
      `(coq-cheat-face ((,class (:foreground ,fg9))))
      `(proof-declaration-name-face ((,class (:foreground ,fg5))))
+     `(coq-button-face ((,class (:ground ,bg1))))
      )))
 
 ;;;###autoload
