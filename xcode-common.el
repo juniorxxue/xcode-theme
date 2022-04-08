@@ -81,7 +81,6 @@
 
 ;;;;; company-mode
      `(company-tooltip ((,class (:background ,bg3 :foreground ,fg1))))
-     `(company-tooltip-mouse ((,class (:background ,bg3 :foreground ,fg1))))
      `(company-tooltip-common ((,class (:background ,bg3 :foreground ,fg1))))
      `(company-tooltip-common-selection ((,class (:foreground ,fg1))))
      `(company-tooltip-selection ((,class (:background ,bg4 :foreground ,fg1))))
