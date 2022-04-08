@@ -84,8 +84,8 @@
      `(company-tooltip-common ((,class (:background ,bg3 :foreground ,fg1))))
      `(company-tooltip-common-selection ((,class (:foreground ,fg1))))
      `(company-tooltip-selection ((,class (:background ,bg4 :foreground ,fg1))))
-     `(company-scrollbar-bg ((,class (:background ,bg3))))
-     `(company-scrollbar-fg ((,class (:background ,bg2))))
+     `(company-tooltip-scrollbar-track ((,class (:background ,bg3))))
+     `(company-tooltip-scrollbar-thumb ((,class (:background ,bg2))))
      `(company-tooltip-annotation ((,class (:foreground ,fg3))))
 
 ;;;;; company-coq
